@@ -1,0 +1,38 @@
+# GuardianGrid robots.txt
+# Optimized for search engine crawling
+
+User-agent: *
+Allow: /
+Disallow: /logs/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.php
+Disallow: /config.ini
+Disallow: /.env
+Disallow: /.htaccess
+
+# Specific rules for popular search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://guardiangrid.com/sitemap.xml
+
+# Block spam bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
