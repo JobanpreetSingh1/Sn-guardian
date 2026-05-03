@@ -105,7 +105,7 @@
         position: relative !important;
         z-index: 10 !important;
         display: grid !important;
-        grid-template-columns: repeat(2, minmax(180px, 1fr)) !important;
+        grid-template-columns: repeat(2, minmax(150px, 1fr)) !important;
         gap: 14px !important;
         width: min(100%, 560px) !important;
         margin: 10px auto 42px !important;
