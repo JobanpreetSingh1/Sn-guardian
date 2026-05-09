@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - S&N GuardianGrid | Security Insights & AI Innovation</title>
-    <meta name="description" content="Read latest articles about AI security, CCTV monitoring, and crime prevention strategies from GuardianGrid experts.">
-    <meta name="keywords" content="security blog, AI monitoring, CCTV technology, crime prevention, security insights">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+<?php
+$page_title = 'Blog - S&N GuardianGrid | Security Insights & AI Innovation';
+$page_description = 'Read latest articles about AI security, CCTV monitoring, and crime prevention strategies from GuardianGrid experts.';
+$page_keywords = 'security blog, AI monitoring, CCTV technology, crime prevention, security insights';
+include 'head_code.php';
+?>
+
     <?php include 'header.php'; ?>
 
     <!-- BLOG HERO -->

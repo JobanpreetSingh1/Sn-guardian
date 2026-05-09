@@ -2,8 +2,7 @@
 <nav class="navbar" id="navbar" aria-label="Primary navigation">
     <div class="nav-wrapper">
         <a href="index.php" class="logo" aria-label="GuardianGrid home">
-            <i class="fas fa-shield-alt" aria-hidden="true"></i>
-            <span>GuardianGrid</span>
+            <img src="assets/images/logo/logo.png" alt="GuardianGrid Logo" class="logo-image">
         </a>
 
         <button class="menu-toggle" id="menuToggle" type="button" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation menu" onclick="(function(){const mt=this;const nav=document.getElementById('navLinks');const active=mt.classList.toggle('active');if(nav)nav.classList.toggle('active');mt.setAttribute('aria-expanded', active);}).call(this)">

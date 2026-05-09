@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - S&N GuardianGrid | AI-Powered CCTV Monitoring</title>
-    <meta name="description" content="Learn about S&N GuardianGrid Technologies - Leading AI-powered CCTV monitoring and security solution provider in India.">
-    <meta name="keywords" content="About GuardianGrid, CCTV monitoring, AI security, company information">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+<?php
+$page_title = 'About Us - S&N GuardianGrid | AI-Powered CCTV Monitoring';
+$page_description = 'Learn about S&N GuardianGrid Technologies - Leading AI-powered CCTV monitoring and security solution provider in India.';
+$page_keywords = 'About GuardianGrid, CCTV monitoring, AI security, company information';
+include 'head_code.php';
+?>
+
     <?php include 'header.php'; ?>
 
     <!-- ABOUT HERO -->

@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - S&N GuardianGrid | Complete Security Solutions</title>
-    <meta name="description" content="Explore GuardianGrid's comprehensive AI-powered security solutions including monitoring, dispatch, analytics, and more.">
-    <meta name="keywords" content="CCTV services, AI monitoring, security dispatch, analytics, threat detection">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+<?php
+$page_title = 'Services - S&N GuardianGrid | Complete Security Solutions';
+$page_description = "Explore GuardianGrid's comprehensive AI-powered security solutions including monitoring, dispatch, analytics, and more.";
+$page_keywords = 'CCTV services, AI monitoring, security dispatch, analytics, threat detection';
+include 'head_code.php';
+?>
 
-<body>
     <?php include 'header.php'; ?>
 
     <!-- SERVICES HERO -->

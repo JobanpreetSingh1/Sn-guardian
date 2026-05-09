@@ -3,8 +3,8 @@
           <div class="footer-content">
               <div class="footer-section">
                   <div class="footer-logo">
-                      <i class="fas fa-shield-alt"></i>
-                      <span>GuardianGrid</span>
+                      <img src="assets/images/logo/logo.png" alt="GuardianGrid Logo" class="logo-image">
+
                   </div>
                   <p>AI-powered CCTV monitoring and security solution for modern businesses.</p>
               </div>
@@ -43,11 +43,13 @@
           </div>
 
           <div class="footer-bottom">
-              <p>&copy; 2024 S&N GuardianGrid Technologies. All rights reserved.</p>
+              <p>&copy; 2026 S&N GuardianGrid Technologies. All rights reserved.</p>
+
               <div class="footer-links">
                   <a href="#">Privacy Policy</a>
                   <a href="#">Terms of Service</a>
               </div>
+              <div class="footer-credit"> Designed &amp; developed with <span class="heart" aria-hidden="true">♥</span> by <a href="https://joban-portfolio.netlify.app/" class="footer-credit-link" target="_blank" rel="noopener noreferrer">Joban</a></div>
           </div>
       </div>
   </footer>

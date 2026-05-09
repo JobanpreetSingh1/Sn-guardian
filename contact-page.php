@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - S&N GuardianGrid | Get In Touch</title>
-    <meta name="description" content="Contact S&N GuardianGrid Technologies. Get support, schedule a demo, or inquire about our AI-powered security solutions.">
-    <meta name="keywords" content="Contact GuardianGrid, support, demo, inquiry">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+
+<?php
+$page_title = 'Contact Us - S&N GuardianGrid | Get In Touch';
+$page_description = 'Contact S&N GuardianGrid Technologies. Get support, schedule a demo, or inquire about our AI-powered security solutions.';
+$page_keywords = 'Contact GuardianGrid, support, demo, inquiry';
+include 'head_code.php';
+?>
+
     <?php include 'header.php'; ?>
 
     <!-- CONTACT HERO -->
@@ -43,9 +41,9 @@
                         <i class="fas fa-envelope"></i>
                     </div>
                     <h3>Email</h3>
-                    <p class="main-info">contact@guardiangrid.com</p>
+                    <p class="main-info">akash.bhardwaj@snguardiangrid.com </p>
                     <p class="sub-info">Response within 24 hours</p>
-                    <a href="mailto:contact@guardiangrid.com" class="contact-link">Email Us →</a>
+                    <a href="mailto:akash.bhardwaj@snguardiangrid.com" class="contact-link">Email Us →</a>
                 </div>
 
                 <div class="quick-contact-card glass-card">
@@ -307,6 +305,7 @@
 
     <!-- Scripts -->
     <script src="assets/js/app.js"></script>
-  
+
 </body>
+
 </html>

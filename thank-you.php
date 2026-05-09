@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You — GuardianGrid</title>
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+<?php
+$page_title = 'Thank You — GuardianGrid';
+$page_description = 'Thank you — we received your message. Our team will get back to you shortly.';
+$page_keywords = 'thank you, inquiry received, contact confirmation';
+include 'head_code.php';
+?>
+
     <?php include 'header.php'; ?>
 
     <main class="thankyou-section" style="padding:100px 20px;">
