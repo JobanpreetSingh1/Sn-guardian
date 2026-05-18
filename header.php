@@ -1,3 +1,8 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVRCT76W"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- NAVBAR -->
 <nav class="navbar" id="navbar" aria-label="Primary navigation">
     <div class="nav-wrapper">
@@ -21,51 +26,66 @@
 
         <a href="contact-page.php" class="cta-btn-nav">Get Started</a>
     </div>
-        </nav>
-        <style>
-        /* Ensure hamburger visible and clickable across CSS ordering */
-        @media (max-width: 768px) { .menu-toggle { display: flex !important; } }
-        .menu-toggle { z-index: 1002 !important; }
-        </style>
-        <script>
-        // Persistent fallback: delegated listener in case other scripts fail to bind
-        (function(){
-            document.addEventListener('click', function(e){
-                const mt = document.getElementById('menuToggle');
-                if(!mt) return;
-                if(mt.contains(e.target) || e.target === mt) {
-                    const nav = document.getElementById('navLinks');
-                    const active = mt.classList.toggle('active');
-                    if(nav) nav.classList.toggle('active');
-                    mt.setAttribute('aria-expanded', active);
-                    console.log('Persistent fallback toggle. aria-expanded=', active);
-                }
-            }, { passive: true });
-        })();
-        </script>
-
+</nav>
 <style>
-@media (max-width: 768px) {
-    .menu-toggle { display: flex !important; }
-}
-/* Force-visible fallback to ensure toggle is available during debugging */
-.menu-toggle { display: flex !important; z-index: 1002 !important; }
+    /* Ensure hamburger visible and clickable across CSS ordering */
+    @media (max-width: 768px) {
+        .menu-toggle {
+            display: flex !important;
+        }
+    }
+
+    .menu-toggle {
+        z-index: 1002 !important;
+    }
 </style>
 <script>
-// Fallback mobile menu toggle: ensures click works and logs state for debugging
-(function(){
-    try {
-        const mt = document.getElementById('menuToggle');
-        const nav = document.getElementById('navLinks');
-        if (!mt || !nav) return;
-        mt.addEventListener('click', (e) => {
-            const active = mt.classList.toggle('active');
-            nav.classList.toggle('active');
-            mt.setAttribute('aria-expanded', active);
-            console.log('Fallback menu toggle clicked. aria-expanded=', active);
+    // Persistent fallback: delegated listener in case other scripts fail to bind
+    (function() {
+        document.addEventListener('click', function(e) {
+            const mt = document.getElementById('menuToggle');
+            if (!mt) return;
+            if (mt.contains(e.target) || e.target === mt) {
+                const nav = document.getElementById('navLinks');
+                const active = mt.classList.toggle('active');
+                if (nav) nav.classList.toggle('active');
+                mt.setAttribute('aria-expanded', active);
+                console.log('Persistent fallback toggle. aria-expanded=', active);
+            }
+        }, {
+            passive: true
         });
-    } catch (err) {
-        console.error('Fallback menu toggle error:', err);
+    })();
+</script>
+
+<style>
+    @media (max-width: 768px) {
+        .menu-toggle {
+            display: flex !important;
+        }
     }
-})();
+
+    /* Force-visible fallback to ensure toggle is available during debugging */
+    .menu-toggle {
+        display: flex !important;
+        z-index: 1002 !important;
+    }
+</style>
+<script>
+    // Fallback mobile menu toggle: ensures click works and logs state for debugging
+    (function() {
+        try {
+            const mt = document.getElementById('menuToggle');
+            const nav = document.getElementById('navLinks');
+            if (!mt || !nav) return;
+            mt.addEventListener('click', (e) => {
+                const active = mt.classList.toggle('active');
+                nav.classList.toggle('active');
+                mt.setAttribute('aria-expanded', active);
+                console.log('Fallback menu toggle clicked. aria-expanded=', active);
+            });
+        } catch (err) {
+            console.error('Fallback menu toggle error:', err);
+        }
+    })();
 </script>

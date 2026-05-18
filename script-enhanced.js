@@ -180,7 +180,7 @@ function animatePremiumCounter(element, target, duration) {
 // ============ FORM VALIDATION ============
 function initFormValidation() {
     const form = document.getElementById('contactForm');
-    if (!form) return;
+    if (!form || form.dataset.contactForm === 'custom') return;
     
     // Real-time validation
     form.querySelectorAll('input, textarea, select').forEach(field => {
@@ -261,25 +261,22 @@ function submitForm(form) {
     
     submitBtn.disabled = true;
     submitBtn.textContent = 'Sending...';
+    formMessage.textContent = 'Sending message...';
     
-    const formData = new FormData(form);
-    
-    fetch('contact.php', {
+    const formData = Object.fromEntries(new FormData(form).entries());
+
+    fetch('https://script.google.com/macros/s/AKfycbyA20jC3q7EwEG9kTW8KIT_66FPOVb4y1oumRWxExZrCNO9utXV1hVe-0RbcA2DKMdgJg/exec', {
         method: 'POST',
-        body: formData
+        headers: {
+            'Content-Type': 'text/plain'
+        },
+        body: JSON.stringify(formData)
     })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            formMessage.classList.remove('error');
-            formMessage.classList.add('success');
-            formMessage.textContent = 'Message sent successfully! We\'ll contact you soon.';
-            form.reset();
-        } else {
-            formMessage.classList.remove('success');
-            formMessage.classList.add('error');
-            formMessage.textContent = data.message || 'Error sending message. Please try again.';
-        }
+    .then(() => {
+        formMessage.classList.remove('error');
+        formMessage.classList.add('success');
+        formMessage.textContent = 'Message sent successfully! We\'ll contact you soon.';
+        form.reset();
     })
     .catch(error => {
         console.error('Error:', error);

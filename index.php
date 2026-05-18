@@ -565,7 +565,7 @@ include 'head_code.php';
                         <i class="fas fa-phone"></i>
                     </div>
                     <h3>Phone</h3>
-                    <p>+91-XXXX-XXXX-XXXX</p>
+                    <p>+91 884 740 6740</p>
                 </div>
 
                 <div class="info-card glass-card">
@@ -575,16 +575,16 @@ include 'head_code.php';
                     <h3>Email</h3>
                     <p>akash.bhardwaj@snguardiangrid.com </p>
                     <p>info@snguardiangrid.com
-                        </p>
+                    </p>
                 </div>
 
-                <div class="info-card glass-card">
+                <!-- <div class="info-card glass-card">
                     <div class="info-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <h3>Location</h3>
                     <p>Bangalore, India</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
         <p>Fill out the form below and our team will get back to you as soon as possible.</p>
     </div>
 
-    <form id="contactForm" class="contact-form glass-card" novalidate>
+    <form id="contactForm" class="contact-form glass-card" novalidate data-contact-form="custom">
         <div class="form-group">
             <label for="name">Full Name *</label>
             <input type="text" id="name" name="name" placeholder="John Doe" required>
@@ -143,6 +143,7 @@
             // Loading state
             submitBtn.disabled = true;
             submitBtn.innerHTML = "Sending...";
+            formMessage.innerHTML = "<span style='color:#00ff99;'>Sending message...</span>";
 
             // Run reCAPTCHA v3
             grecaptcha.ready(function() {
@@ -162,53 +163,25 @@
                         sheet: "CONTACT"
                     };
 
-                    fetch("https://script.google.com/macros/s/AKfycbw93nz0OX1U1jqGRNWVBwBZAoRfreel0PKt2Ll2zuH8p1lBKLPZFOTNOL0uiIBHe6rUYw/exec", {
+                    fetch("https://script.google.com/macros/s/AKfycbyA20jC3q7EwEG9kTW8KIT_66FPOVb4y1oumRWxExZrCNO9utXV1hVe-0RbcA2DKMdgJg/exec", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "text/plain"
                             },
                             body: JSON.stringify(formData)
                         })
-                        .then(response => response.text())
-                        .then(text => {
+                        .then(() => {
+                            formMessage.innerHTML = "<span style='color:#00ff99;'>✅ Message sent successfully.</span>";
 
-                            let data;
+                            form.reset();
+                            clearErrors();
 
-                            try {
-                                data = JSON.parse(text);
-                            } catch (error) {
-                                data = {
-                                    status: "error"
-                                };
-                            }
-
-                            if (data.status === "success") {
-
-                                formMessage.innerHTML =
-                                    "<span style='color:#00ff99;'>✅ Message sent successfully.</span>";
-
-                                form.reset();
-                                clearErrors();
-                                formMessage.innerHTML = "<span style='color:#00ff99;'>✅ Message sent successfully.</span>";
-
-                                setTimeout(function() {
-                                    window.location.href = "thank-you.php";
-                                }, 1000);
-
-                            } else if (data.status === "spam") {
-
-                                formMessage.innerHTML =
-                                    "<span style='color:#ff4444;'>⚠ Spam detected. Please try again.</span>";
-
-                            } else {
-
-                                formMessage.innerHTML =
-                                    "<span style='color:#ff4444;'>❌ Failed to send message.</span>";
-                            }
+                            setTimeout(function() {
+                                window.location.href = "thank-you.php";
+                            }, 1000);
 
                             submitBtn.disabled = false;
                             submitBtn.innerHTML = "Send Message";
-
                         })
                         .catch(function(error) {
 
