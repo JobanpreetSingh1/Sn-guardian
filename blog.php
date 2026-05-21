@@ -26,8 +26,8 @@ include 'head_code.php';
         <div class="container">
             <div class="featured-article glass-card">
                 <div class="featured-image">
+                    <img src="assets/images/camera/cameraview-1.png" alt="AI Crime Prevention">
                     <div class="featured-badge">FEATURED</div>
-                    <i class="fas fa-image"></i>
                 </div>
                 <div class="featured-content">
                     <div class="article-meta">
@@ -63,7 +63,7 @@ include 'head_code.php';
                 <!-- Article 1 -->
                 <article class="blog-card glass-card" data-category="ai">
                     <div class="blog-card-image">
-                        <i class="fas fa-robot"></i>
+                        <img src="assets/images/camera/cameraview-2.png" alt="Deep Learning AI Technology">
                         <div class="read-time">6 min</div>
                     </div>
                     <div class="blog-card-content">
@@ -86,7 +86,7 @@ include 'head_code.php';
                 <!-- Article 2 -->
                 <article class="blog-card glass-card" data-category="security">
                     <div class="blog-card-image">
-                        <i class="fas fa-shield-alt"></i>
+                        <img src="assets/images/sn-short/hand.png" alt="Security Threats - Surveillance">
                         <div class="read-time">5 min</div>
                     </div>
                     <div class="blog-card-content">
@@ -109,7 +109,7 @@ include 'head_code.php';
                 <!-- Article 3 -->
                 <article class="blog-card glass-card" data-category="case-study">
                     <div class="blog-card-image">
-                        <i class="fas fa-chart-line"></i>
+                        <img src="assets/images/camera/cameraview-3.png" alt="Retail Theft Prevention">
                         <div class="read-time">7 min</div>
                     </div>
                     <div class="blog-card-content">
@@ -132,7 +132,7 @@ include 'head_code.php';
                 <!-- Article 4 -->
                 <article class="blog-card glass-card" data-category="tips">
                     <div class="blog-card-image">
-                        <i class="fas fa-lightbulb"></i>
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop" alt="CCTV Camera Placement">
                         <div class="read-time">4 min</div>
                     </div>
                     <div class="blog-card-content">
@@ -155,7 +155,7 @@ include 'head_code.php';
                 <!-- Article 5 -->
                 <article class="blog-card glass-card" data-category="security">
                     <div class="blog-card-image">
-                        <i class="fas fa-lock"></i>
+                        <img src="assets/images/sn-short/alert.png" alt="Data Privacy and Security">
                         <div class="read-time">6 min</div>
                     </div>
                     <div class="blog-card-content">
@@ -178,7 +178,7 @@ include 'head_code.php';
                 <!-- Article 6 -->
                 <article class="blog-card glass-card" data-category="ai">
                     <div class="blog-card-image">
-                        <i class="fas fa-network-wired"></i>
+                        <img src="assets/images/sn-short/footage.png" alt="Computer Vision Technology">
                         <div class="read-time">7 min</div>
                     </div>
                     <div class="blog-card-content">

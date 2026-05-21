@@ -133,6 +133,75 @@ include 'head_code.php';
         </div>
     </section>
 
+    <!-- ABOUT THE PRESENTER -->
+    <section class="presenter-section" id="presenter-section" style="padding: 80px 0; background: linear-gradient(135deg, rgba(255,215,0,.05), rgba(0,234,255,.03));">
+        <div class="container">
+            <div class="section-header">
+                <h2>About the Founder</h2>
+                <p>The Vision Behind GuardianGrid</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 50px; align-items: center; margin-top: 50px;">
+                <!-- Presenter Image/Avatar -->
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <div class="glass-card" style="padding: 40px; border: 2px solid #00eaff; text-align: center; width: 100%; max-width: 350px;">
+                        <div style="font-size: 120px; color: #00eaff; margin-bottom: 20px;">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3 style="color: #fff; margin-bottom: 10px; font-size: 24px;">Akash Bhardwaj</h3>
+                        <p style="color: #00eaff; margin-bottom: 5px; font-weight: 600; font-size: 15px;">R&D Innovation | Evalueserve</p>
+                        <p style="color: rgba(255,255,255,.75); font-size: 14px; line-height: 1.6;">
+                            Crafting Safer Futures Through Intelligent Surveillance
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Presenter Details -->
+                <div>
+                    <h3 style="color: #fff; margin-bottom: 20px; font-size: 24px;">The Visionary Behind GuardianGrid</h3>
+                    
+                    <p style="color: rgba(255,255,255,.9); font-size: 15px; line-height: 1.9; margin-bottom: 20px;">
+                        As the force behind <strong>S&N GuardianGrid Technologies</strong>, Akash specializes in building next-generation AI-powered surveillance ecosystems that go beyond passive monitoring—transforming CCTV into proactive, intelligent guardians. His work focuses on integrating <strong>real-time incident detection</strong>, <strong>smart alert mechanisms</strong>, and <strong>scalable multi-camera architectures</strong> to deliver unmatched situational awareness.
+                    </p>
+
+                    <p style="color: rgba(255,255,255,.9); font-size: 15px; line-height: 1.9; margin-bottom: 30px;">
+                        With a strong inclination toward research, product development, and patent-driven innovation, Akash continuously explores ways to bridge the gap between traditional security infrastructure and cutting-edge artificial intelligence. He believes that the future of safety lies not just in watching—but in understanding, predicting, and responding.
+                    </p>
+
+                    <!-- Specialties -->
+                    <div style="background: rgba(0,234,255,.1); padding: 25px; border-radius: 8px; border-left: 4px solid #00eaff;">
+                        <h4 style="color: #00eaff; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-star"></i>
+                            Areas of Expertise
+                        </h4>
+                        <ul style="color: rgba(255,255,255,.85); font-size: 14px; line-height: 2; margin: 0; padding-left: 25px;">
+                            <li><strong>AI Surveillance Systems</strong> — Designing intelligent monitoring ecosystems</li>
+                            <li><strong>Smart Security Automation</strong> — Real-time threat detection and response</li>
+                            <li><strong>Scalable Infrastructure Design</strong> — Multi-camera architecture for enterprises</li>
+                            <li><strong>Innovation & Patent Development</strong> — Driving patent-backed technological advancement</li>
+                        </ul>
+                    </div>
+
+                    <!-- Philosophy -->
+                    <div style="margin-top: 25px; padding: 20px; background: rgba(255,215,0,.08); border-radius: 8px; border-left: 4px solid #ffd700;">
+                        <p style="color: rgba(255,255,255,.9); font-size: 14px; line-height: 1.8; font-style: italic; margin: 0;">
+                            <i class="fas fa-quote-left" style="color: #ffd700; margin-right: 10px;"></i>
+                            "Let's build a world where technology doesn't just observe—but protects."
+                        </p>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div style="margin-top: 30px; display: flex; gap: 15px;">
+                        <a href="https://linkedin.com" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; background: rgba(0,234,255,.15); color: #00eaff; border-radius: 6px; text-decoration: none; transition: all 0.3s; border: 1px solid rgba(0,234,255,.3);">
+                            <i class="fab fa-linkedin"></i>
+                            <span>Connect on LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- COMPANY HISTORY -->
    
 
@@ -358,6 +427,124 @@ include 'head_code.php';
                     tiers range from basic "Alerts Only" bundles to full 24×7 premium plans with guaranteed
                     police dispatch.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BUILT ON TRUST. BACKED BY STANDARDS -->
+    <section class="trust-section" id="trust-section" style="padding: 80px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Built on Trust. Backed by Standards.</h2>
+                <p>Every Layer of GuardianGrid Is Designed for Reliability and Accountability</p>
+            </div>
+
+            <div class="trust-grid">
+                <!-- Trust 1 -->
+                <div class="trust-card glass-card">
+                    <h4 class="trust-title">NDA-Ready Operations</h4>
+                    <p class="trust-text">All monitoring staff operate under strict Non-Disclosure Agreements. Your footage, incidents, and data never leave our secure chain of custody.</p>
+                </div>
+
+                <!-- Trust 2 -->
+                <div class="trust-card glass-card">
+                    <h4 class="trust-title">Data Privacy Compliance</h4>
+                    <p class="trust-text">We follow industry-standard data protection protocols. Client footage is encrypted, access-controlled, and never shared without explicit authorization.</p>
+                </div>
+
+                <!-- Trust 3 -->
+                <div class="trust-card glass-card">
+                    <h4 class="trust-title">Secure Cloud Architecture</h4>
+                    <p class="trust-text">All video streams and incident logs are stored on encrypted, redundant cloud infrastructure — accessible only to authorized personnel.</p>
+                </div>
+
+                <!-- Trust 4 -->
+                <div class="trust-card glass-card">
+                    <h4 class="trust-title">24×7 Command Center</h4>
+                    <p class="trust-text">Our operations center never sleeps. Trained analysts monitor feeds around the clock — weekends, holidays, and beyond.</p>
+                </div>
+
+                <!-- Trust 5 -->
+                <div class="trust-card glass-card">
+                    <h4 class="trust-title">Operator Training Standards</h4>
+                    <p class="trust-text">Every GuardianGrid operator undergoes rigorous training in threat identification, escalation protocols, and client communication before going live.</p>
+                </div>
+
+                <!-- Trust 6 -->
+                <div class="trust-card glass-card">
+                    <h4 class="trust-title">Backup Internet & Power Systems</h4>
+                    <p class="trust-text">Redundant connectivity and power backup ensure zero downtime — even during outages, your surveillance never goes dark.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECHNOLOGY ROADMAP -->
+    <section class="technology-roadmap" id="technology-roadmap" style="padding: 80px 0; background: linear-gradient(135deg, rgba(0,234,255,.05), rgba(0,234,255,.02));">
+        <div class="container">
+            <div class="section-header">
+                <span style="color: #00eaff; font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">TECHNOLOGY ROADMAP</span>
+                <h2>GuardianGrid Vision 2026-2028</h2>
+                <p>Building the Future of Intelligent Security — One Innovation at a Time</p>
+            </div>
+
+            <div style="max-width: 900px; margin: 60px auto;">
+                <!-- Phase 1 - 2026 -->
+                <div style="display: flex; gap: 30px; margin-bottom: 50px; align-items: flex-start;">
+                    <div style="flex-shrink: 0;">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #00eaff 0%, rgba(0,234,255,.6) 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 2px solid #00eaff;">
+                            <i class="fas fa-microchip" style="font-size: 36px; color: #fff;"></i>
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <h3 style="color: #fff; margin-bottom: 15px; font-size: 20px; font-weight: 600;">Phase 1 — 2026 (Near-Term)</h3>
+                        <ul style="color: rgba(255,255,255,.85); font-size: 15px; line-height: 2; margin: 0; padding-left: 25px;">
+                            <li><strong>AI Weapon Recognition</strong> — Real-time detection of firearms and bladed weapons in live feeds</li>
+                            <li><strong>ANPR (Automatic Number Plate Recognition)</strong> — Full license plate logging and watchlist matching</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Phase 2 - 2027 -->
+                <div style="display: flex; gap: 30px; margin-bottom: 50px; align-items: flex-start;">
+                    <div style="flex-shrink: 0;">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #00eaff 0%, rgba(0,234,255,.6) 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 2px solid #00eaff;">
+                            <i class="fas fa-robot" style="font-size: 36px; color: #fff;"></i>
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <h3 style="color: #fff; margin-bottom: 15px; font-size: 20px; font-weight: 600;">Phase 2 — 2027 (Mid-Term)</h3>
+                        <ul style="color: rgba(255,255,255,.85); font-size: 15px; line-height: 2; margin: 0; padding-left: 25px;">
+                            <li><strong>Drone Surveillance Integration</strong> — Aerial monitoring units deployable on-demand for large premises</li>
+                            <li><strong>Automated Voice Deterrence</strong> — AI-triggered audio warnings to deter intruders before escalation</li>
+                            <li><strong>Behavioral Threat Scoring</strong> — Predictive risk scoring based on movement patterns and historical data</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Phase 3 - 2028 -->
+                <div style="display: flex; gap: 30px; align-items: flex-start;">
+                    <div style="flex-shrink: 0;">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #00eaff 0%, rgba(0,234,255,.6) 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 2px solid #00eaff;">
+                            <i class="fas fa-globe" style="font-size: 36px; color: #fff;"></i>
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <h3 style="color: #fff; margin-bottom: 15px; font-size: 20px; font-weight: 600;">Phase 3 — 2028 (Long-Term)</h3>
+                        <ul style="color: rgba(255,255,255,.85); font-size: 15px; line-height: 2; margin: 0; padding-left: 25px;">
+                            <li><strong>Predictive Crime Analytics</strong> — AI models that forecast high-risk windows before incidents occur</li>
+                            <li><strong>Smart City Partnerships</strong> — Integration with municipal CCTV grids and law enforcement networks</li>
+                            <li><strong>Mobile Response Units</strong> — Rapid-deployment GuardianGrid field teams for on-ground intervention</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Vision Statement -->
+                <div style="margin-top: 60px; padding: 35px; background: rgba(0,234,255,.08); border-left: 5px solid #00eaff; border-radius: 8px; text-align: center;">
+                    <p style="color: rgba(255,255,255,.9); font-size: 16px; line-height: 1.8; margin: 0; font-style: italic;">
+                        By 2028, GuardianGrid will have evolved from a regional surveillance innovator into a global leader in predictive security, delivering AI-powered protection that doesn't just monitor—it anticipates, prevents, and responds.
+                    </p>
+                </div>
             </div>
         </div>
     </section>

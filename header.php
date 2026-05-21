@@ -20,6 +20,7 @@
             <li><a href="index.php" class="nav-link">Home</a></li>
             <li><a href="about.php" class="nav-link">About</a></li>
             <li><a href="services.php" class="nav-link">Services</a></li>
+            <li><a href="industries.php" class="nav-link">Industries</a></li>
             <li><a href="blog.php" class="nav-link">Blog</a></li>
             <li><a href="contact-page.php" class="nav-link">Contact</a></li>
         </ul>

@@ -279,64 +279,151 @@ include 'head_code.php';
                 </div>
             </div>
         </div>
+    </div>
+    </div>
 </section>
-<!-- COMPARISON SECTION -->
-<section class="comparison-section" id="comparison-table">
+
+<!-- INDIA'S SECURITY MARKET -->
+<section class="market-section" id="market-section" style="padding: 80px 0; background: linear-gradient(135deg, rgba(0,234,255,.05), rgba(255,215,0,.03));">
+    <div class="container">
+        <div class="section-header">
+            <h2>India's Security Market: The Opportunity Ahead</h2>
+            <p>A Nation That Urgently Needs Smarter Protection</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin: 50px 0;">
+            <!-- Market Stat Cards -->
+            <div class="market-card glass-card" style="padding: 40px; text-align: center; border-left: 4px solid #00eaff;">
+                <div style="font-size: 48px; color: #00eaff; font-weight: bold; margin-bottom: 10px;">6.24M</div>
+                <h4 style="color: #fff; margin-bottom: 10px; font-size: 16px;">Crimes in 2023</h4>
+                <p style="color: rgba(255,255,255,.75); font-size: 14px;">Registered across India — up 7.2% from 2022 (NCRB)</p>
+            </div>
+
+            <div class="market-card glass-card" style="padding: 40px; text-align: center; border-left: 4px solid #ffd700;">
+                <div style="font-size: 48px; color: #ffd700; font-weight: bold; margin-bottom: 10px;">448.3</div>
+                <h4 style="color: #fff; margin-bottom: 10px; font-size: 16px;">Crime Rate Per Lakh Population</h4>
+                <p style="color: rgba(255,255,255,.75); font-size: 14px;">2023 — Highest in 3 years</p>
+            </div>
+
+            <div class="market-card glass-card" style="padding: 40px; text-align: center; border-left: 4px solid #00eaff;">
+                <div style="font-size: 48px; color: #00eaff; font-weight: bold; margin-bottom: 10px;">31.2%</div>
+                <h4 style="color: #fff; margin-bottom: 10px; font-size: 16px;">Cybercrime Surge</h4>
+                <p style="color: rgba(255,255,255,.75); font-size: 14px;">Rise in cybercrime cases, signalling need for digital-physical security convergence</p>
+            </div>
+
+            <div class="market-card glass-card" style="padding: 40px; text-align: center; border-left: 4px solid #ffd700;">
+                <div style="font-size: 48px; color: #ffd700; font-weight: bold; margin-bottom: 10px;">Every 5 Sec</div>
+                <h4 style="color: #fff; margin-bottom: 10px; font-size: 16px;">Crime Frequency</h4>
+                <p style="color: rgba(255,255,255,.75); font-size: 14px;">A crime is registered in India every 5 seconds on average</p>
+            </div>
+        </div>
+
+        <!-- Punjab Specific Focus -->
+        <div class="glass-card" style="padding: 50px; margin-top: 50px; border-left: 5px solid #00eaff;">
+            <h3 style="color: #00eaff; margin-bottom: 30px; font-size: 24px;">Why Punjab Is Ground Zero</h3>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                <div style="padding: 20px; background: rgba(0,234,255,.08); border-radius: 8px;">
+                    <h4 style="color: #fff; margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-exclamation-triangle" style="color: #00eaff;"></i>
+                        Drug & Organised Crime Hotspot
+                    </h4>
+                    <ul style="color: rgba(255,255,255,.8); font-size: 14px; line-height: 1.8; margin: 0; padding-left: 20px;">
+                        <li>163 drone-based drug smuggling incidents recorded in Punjab in 2024 (NCB)</li>
+                        <li>7,686 NDPS FIRs filed and 10,524 arrests made in 2024</li>
+                        <li>Punjab ranks among the top states for drug trafficking nationally</li>
+                        <li>Cross-border geography makes Punjab uniquely vulnerable to organised crime</li>
+                    </ul>
+                </div>
+
+                <div style="padding: 20px; background: rgba(255,215,0,.08); border-radius: 8px;">
+                    <h4 style="color: #fff; margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-building" style="color: #ffd700;"></i>
+                        Security Infrastructure Gap
+                    </h4>
+                    <ul style="color: rgba(255,255,255,.8); font-size: 14px; line-height: 1.8; margin: 0; padding-left: 20px;">
+                        <li>Most businesses and residences rely on passive CCTV systems with no active monitoring</li>
+                        <li>Youth criminality rising rapidly — teenagers aged 16–22 increasingly drawn into crime</li>
+                        <li>Law enforcement is stretched; private security must fill the gap</li>
+                        <li>Massive underserved demand for affordable, professional remote monitoring services</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p style="color: rgba(255,255,255,.75); font-size: 12px; margin-top: 25px; padding-top: 25px; border-top: 1px solid rgba(0,234,255,.2);">
+                📊 <strong>Sources:</strong> NCRB Crime in India 2023 Report; Narcotics Control Bureau (NCB) 2024 Data; Punjab Police Annual Statistics 2024.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- WHY GUARDIANGRID WINS - COMPETITIVE ADVANTAGE -->
+<section class="competitive-advantage" id="competitive-advantage">
     <div class="container">
         <div class="section-header">
             <h2>Why GuardianGrid Wins</h2>
-            <p>Comprehensive Comparison</p>
+            <p>How We Outperform Traditional Security Solutions</p>
         </div>
 
-        <div class="comparison-table-wrapper">
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Traditional CCTV</th>
-                        <th>Security Guards</th>
-                        <th class="highlight-col">GuardianGrid</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>24/7 Monitoring</strong></td>
-                        <td><i class="fas fa-times"></i></td>
-                        <td><i class="fas fa-times"></i></td>
-                        <td class="highlight-col"><i class="fas fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td><strong>AI Detection</strong></td>
-                        <td><i class="fas fa-times"></i></td>
-                        <td><i class="fas fa-times"></i></td>
-                        <td class="highlight-col"><i class="fas fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Response Time</strong></td>
-                        <td>15-20 min</td>
-                        <td>5-10 min</td>
-                        <td class="highlight-col">&lt;60 sec</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Cost Per Year</strong></td>
-                        <td>₹3,60,000</td>
-                        <td>₹4,80,000</td>
-                        <td class="highlight-col">₹1,08,000</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Human Error</strong></td>
-                        <td>High</td>
-                        <td>Very High</td>
-                        <td class="highlight-col">None</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Scalability</strong></td>
-                        <td>Limited</td>
-                        <td>Limited</td>
-                        <td class="highlight-col">Unlimited</td>
-                    </tr>
-                </tbody>
-            </table>
+        <!-- Competitors Grid -->
+        <div class="competitors-grid">
+            <!-- Competitor 1 -->
+            <div class="competitor-card glass-card">
+                <i class="fas fa-video"></i>
+                <h4>Passive CCTV Installers</h4>
+                <p>Record footage only — no monitoring, no response. A crime is discovered, never prevented.</p>
+            </div>
+
+            <!-- Competitor 2 -->
+            <div class="competitor-card glass-card">
+                <i class="fas fa-user-tie"></i>
+                <h4>Onsite Security Agencies</h4>
+                <p>High cost, limited coverage, prone to human error, fatigue, and corruption.</p>
+            </div>
+
+            <!-- Competitor 3 -->
+            <div class="competitor-card glass-card">
+                <i class="fas fa-bell"></i>
+                <h4>Basic Alarm Systems</h4>
+                <p>Trigger alerts but lack visual verification — leading to false alarms and slow police response.</p>
+            </div>
+
+            <!-- Competitor 4 -->
+            <div class="competitor-card glass-card">
+                <i class="fas fa-wifi"></i>
+                <h4>Generic Remote Monitoring</h4>
+                <p>No AI, no predictive insights, no dedicated police coordination. Reactive at best.</p>
+            </div>
+        </div>
+
+        <!-- Our Value Proposition -->
+        <div class="value-proposition-section">
+            <div class="section-header">
+                <h3>Our Value Proposition</h3>
+            </div>
+
+            <div class="value-cards-grid">
+                <!-- Value 1 -->
+                <div class="value-card glass-card">
+                    <i class="fas fa-brain"></i>
+                    <h4>AI-First Platform</h4>
+                    <p>Proprietary AI detects incidents in real time — far beyond what human operators or passive systems can achieve.</p>
+                </div>
+
+                <!-- Value 2 -->
+                <div class="value-card glass-card">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Sub-60 Second Police Dispatch</h4>
+                    <p>Our guaranteed police response protocol is a market-first capability that no passive CCTV or guard service can match.</p>
+                </div>
+
+                <!-- Value 3 -->
+                <div class="value-card glass-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Predictive Maintenance Edge</h4>
+                    <p>Bi-weekly reports that flag probable future incidents — transforming security from reactive to proactive.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -440,7 +527,7 @@ include 'head_code.php';
 </section>
 
 <!-- PRICING SECTION -->
-<section class="pricing-section" id="pricing">
+<!-- <section class="pricing-section" id="pricing">
     <div class="container">
         <div class="section-header">
             <h2>Simple, Transparent Pricing</h2>
@@ -450,8 +537,8 @@ include 'head_code.php';
         <div class="pricing-grid">
             <div class="pricing-card glass-card">
                 <div class="price-header">
-                    <h3>Alerts Only</h3>
-                    <p class="price-desc">Perfect for small businesses</p>
+                    <h3>🔔 Alerts Only</h3>
+                    <p class="price-desc">Small homes & starter security</p>
                 </div>
                 <div class="price-amount">
                     <span class="currency">₹</span>
@@ -459,19 +546,20 @@ include 'head_code.php';
                     <span class="period">/month</span>
                 </div>
                 <ul class="price-features">
-                    <li><i class="fas fa-check"></i> Up to 4 Cameras</li>
+                    <li><i class="fas fa-moon"></i> Night Monitoring</li>
+                    <li><i class="fas fa-check"></i> Up to 3 Cameras</li>
                     <li><i class="fas fa-check"></i> AI Detection</li>
-                    <li><i class="fas fa-check"></i> Basic Alerts</li>
-                    <li><i class="fas fa-times"></i> Police Dispatch</li>
-                    <li><i class="fas fa-times"></i> Advanced Reports</li>
+                    <li><i class="fas fa-check"></i> Alert Disposal</li>
+                    <li><i class="fas fa-check"></i> Police Dispatch (<60s)</li>
+                    <li><i class="fas fa-times"></i> Biweekly Reports</li>
                 </ul>
                 <a href="contact-page.php" class="btn btn-outline">Get Started</a>
             </div>
 
             <div class="pricing-card glass-card">
                 <div class="price-header">
-                    <h3>Regular</h3>
-                    <p class="price-desc">Most popular for SMEs</p>
+                    <h3>📦 Regular Bundle</h3>
+                    <p class="price-desc">Residences & small businesses</p>
                 </div>
                 <div class="price-amount">
                     <span class="currency">₹</span>
@@ -479,20 +567,21 @@ include 'head_code.php';
                     <span class="period">/month</span>
                 </div>
                 <ul class="price-features">
+                    <li><i class="fas fa-moon"></i> Night Monitoring</li>
                     <li><i class="fas fa-check"></i> Up to 8 Cameras</li>
                     <li><i class="fas fa-check"></i> AI Detection</li>
-                    <li><i class="fas fa-check"></i> Premium Alerts</li>
-                    <li><i class="fas fa-check"></i> Police Dispatch</li>
-                    <li><i class="fas fa-times"></i> Priority Support</li>
+                    <li><i class="fas fa-check"></i> Alert Disposal</li>
+                    <li><i class="fas fa-check"></i> Police Dispatch (<60s)</li>
+                    <li><i class="fas fa-check"></i> Biweekly Reports</li>
                 </ul>
                 <a href="contact-page.php" class="btn btn-outline">Get Started</a>
             </div>
 
             <div class="pricing-card glass-card premium-highlight">
-                <div class="premium-badge">RECOMMENDED</div>
+                <div class="premium-badge">⭐ RECOMMENDED</div>
                 <div class="price-header">
-                    <h3>Premium</h3>
-                    <p class="price-desc">Best value for enterprises</p>
+                    <h3>Premium Bundle</h3>
+                    <p class="price-desc">Retail shops & offices</p>
                 </div>
                 <div class="price-amount">
                     <span class="currency">₹</span>
@@ -500,19 +589,20 @@ include 'head_code.php';
                     <span class="period">/month</span>
                 </div>
                 <ul class="price-features">
-                    <li><i class="fas fa-check"></i> Up to 16 Cameras</li>
+                    <li><i class="fas fa-check"></i> 24×7 Monitoring</li>
+                    <li><i class="fas fa-check"></i> 8–16 Cameras</li>
                     <li><i class="fas fa-check"></i> AI Detection</li>
-                    <li><i class="fas fa-check"></i> Premium Alerts</li>
-                    <li><i class="fas fa-check"></i> Police Dispatch</li>
-                    <li><i class="fas fa-check"></i> Priority Support</li>
+                    <li><i class="fas fa-check"></i> Alert Disposal</li>
+                    <li><i class="fas fa-check"></i> Police Dispatch (<60s)</li>
+                    <li><i class="fas fa-check"></i> Biweekly Reports</li>
                 </ul>
                 <a href="contact-page.php" class="btn btn-primary">Get Started</a>
             </div>
 
             <div class="pricing-card glass-card">
                 <div class="price-header">
-                    <h3>Supreme</h3>
-                    <p class="price-desc">For large enterprises</p>
+                    <h3>👑 Supreme Bundle</h3>
+                    <p class="price-desc">Warehouses & large complexes</p>
                 </div>
                 <div class="price-amount">
                     <span class="currency">₹</span>
@@ -520,31 +610,20 @@ include 'head_code.php';
                     <span class="period">/month</span>
                 </div>
                 <ul class="price-features">
-                    <li><i class="fas fa-check"></i> Unlimited Cameras</li>
+                    <li><i class="fas fa-check"></i> 24×7 Monitoring</li>
+                    <li><i class="fas fa-check"></i> 16–24 Cameras</li>
                     <li><i class="fas fa-check"></i> AI Detection</li>
-                    <li><i class="fas fa-check"></i> Premium Alerts</li>
-                    <li><i class="fas fa-check"></i> Police Dispatch</li>
-                    <li><i class="fas fa-check"></i> 24/7 Dedicated Support</li>
+                    <li><i class="fas fa-check"></i> Alert Disposal</li>
+                    <li><i class="fas fa-check"></i> Police Dispatch (<60s)</li>
+                    <li><i class="fas fa-check"></i> Biweekly Reports</li>
                 </ul>
                 <a href="contact-page.php" class="btn btn-outline">Get Started</a>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<!-- CTA SECTION -->
-<section class="cta-section" id="cta">
-    <div class="container">
-        <div class="cta-content">
-            <h2>Partner with GuardianGrid Today</h2>
-            <p>Join thousands of businesses securing their assets with AI-powered monitoring</p>
-            <div class="cta-buttons">
-                <a href="contact-page.php" class="btn btn-primary btn-large">Get Started Now</a>
-                <a href="contact-page.php" class="btn btn-secondary btn-large">Schedule Demo</a>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- CONTACT SECTION -->
 <section class="contact-section" id="contact">
@@ -589,7 +668,19 @@ include 'head_code.php';
         </div>
     </div>
 </section>
-
+<!-- CTA SECTION -->
+<section class="cta-section" id="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Partner with GuardianGrid Today</h2>
+            <p>Join thousands of businesses securing their assets with AI-powered monitoring</p>
+            <div class="cta-buttons">
+                <a href="contact-page.php" class="btn btn-primary btn-large">Get Started Now</a>
+                <a href="contact-page.php" class="btn btn-secondary btn-large">Schedule Demo</a>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- FOOTER -->
 <?php include 'footer.php'; ?>
 

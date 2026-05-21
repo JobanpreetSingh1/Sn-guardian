@@ -897,6 +897,90 @@ include 'head_code.php';
         </div>
     </section>
 
+    <!-- WHAT OUR AI DETECTS -->
+    <section class="ai-detection-section" id="ai-detection" style="padding: 80px 0; background: linear-gradient(135deg, rgba(0,234,255,.05), rgba(255,215,0,.03));">
+        <div class="container">
+            <div class="section-header">
+                <span style="color: #00eaff; font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; display: inline-block; margin-bottom: 15px;">AI CAPABILITIES</span>
+                <h2>What Our AI Detects</h2>
+                <p>10 Intelligent Threat Categories — Monitored in Real Time</p>
+            </div>
+
+            <!-- AI Detection Grid -->
+            <div class="ai-detection-grid">
+                <!-- Detection 1 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-person-hiking detection-item-icon"></i>
+                    <h4 class="detection-item-title">Intrusion Detection</h4>
+                    <p class="detection-item-text">Instantly identifies unauthorized entry into restricted zones</p>
+                </div>
+
+                <!-- Detection 2 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-hourglass-end detection-item-icon"></i>
+                    <h4 class="detection-item-title">Loitering Detection</h4>
+                    <p class="detection-item-text">Flags individuals lingering suspiciously beyond normal thresholds</p>
+                </div>
+
+                <!-- Detection 3 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-arrows-alt detection-item-icon"></i>
+                    <h4 class="detection-item-title">Boundary Crossing</h4>
+                    <p class="detection-item-text">Alerts when virtual perimeter lines are breached</p>
+                </div>
+
+                <!-- Detection 4 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-gun detection-item-icon"></i>
+                    <h4 class="detection-item-title">Weapon Detection</h4>
+                    <p class="detection-item-text">Recognizes firearms and sharp objects in camera view</p>
+                </div>
+
+                <!-- Detection 5 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-users detection-item-icon"></i>
+                    <h4 class="detection-item-title">Crowd Formation</h4>
+                    <p class="detection-item-text">Detects unusual gatherings that may signal unrest or threat</p>
+                </div>
+
+                <!-- Detection 6 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-car detection-item-icon"></i>
+                    <h4 class="detection-item-title">Vehicle Detection</h4>
+                    <p class="detection-item-text">Monitors unauthorized or suspicious vehicle presence</p>
+                </div>
+
+                <!-- Detection 7 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-id-card detection-item-icon"></i>
+                    <h4 class="detection-item-title">License Plate Recognition</h4>
+                    <p class="detection-item-text">Captures and logs vehicle plates for audit and tracking</p>
+                </div>
+
+                <!-- Detection 8 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-person-running detection-item-icon"></i>
+                    <h4 class="detection-item-title">Unusual Movement Patterns</h4>
+                    <p class="detection-item-text">Identifies erratic or abnormal human behavior</p>
+                </div>
+
+                <!-- Detection 9 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-fire detection-item-icon"></i>
+                    <h4 class="detection-item-title">Fire/Smoke Detection</h4>
+                    <p class="detection-item-text">Early visual detection of fire or smoke before alarms trigger</p>
+                </div>
+
+                <!-- Detection 10 -->
+                <div class="detection-item glass-card">
+                    <i class="fas fa-clock detection-item-icon"></i>
+                    <h4 class="detection-item-title">After-Hours Activity</h4>
+                    <p class="detection-item-text">Flags any movement during closed or restricted hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA SECTION -->
     <section class="cta-section" id="cta">
         <div class="container">
