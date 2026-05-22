@@ -257,7 +257,7 @@ include 'head_code.php';
     </section>
 
     <!-- SERVICE COMPARISON -->
-    <section class="service-comparison-section" id="service-comparison">
+    <!-- <section class="service-comparison-section" id="service-comparison">
         <div class="container">
             <div class="section-header">
                 <h2>Service Comparison</h2>
@@ -343,7 +343,7 @@ include 'head_code.php';
                 </table>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- IMPLEMENTATION PROCESS -->
     <section class="implementation-section" id="implementation">
@@ -898,10 +898,10 @@ include 'head_code.php';
     </section>
 
     <!-- WHAT OUR AI DETECTS -->
-    <section class="ai-detection-section" id="ai-detection" style="padding: 80px 0; background: linear-gradient(135deg, rgba(0,234,255,.05), rgba(255,215,0,.03));">
+    <section class="ai-detection-section" id="ai-detection">
         <div class="container">
             <div class="section-header">
-                <span style="color: #00eaff; font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; display: inline-block; margin-bottom: 15px;">AI CAPABILITIES</span>
+                <span class="ai-capabilities-label">AI CAPABILITIES</span>
                 <h2>What Our AI Detects</h2>
                 <p>10 Intelligent Threat Categories — Monitored in Real Time</p>
             </div>

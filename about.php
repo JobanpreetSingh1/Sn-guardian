@@ -66,67 +66,67 @@ include 'head_code.php';
             </div>
 
             <div class="framework-intro glass-card">
-                <h3 style="color: #00eaff; margin-bottom: 15px;">Detection → Validation → Response</h3>
-                <p style="line-height: 1.9; color: rgba(255,255,255,.9);">
+                <h3>Detection → Validation → Response</h3>
+                <p>
                     Modern security challenges demand more than passive recording. Our proprietary <strong>GuardianGrid Active Surveillance™ Framework</strong> is a layered system designed to convert passive CCTV setups into intelligent, responsive protection ecosystems.
                 </p>
-                <p style="line-height: 1.9; color: rgba(255,255,255,.9);">
+                <p>
                     While most surveillance systems record events, ours <strong>actively prevents them</strong>. We operate on three core principles:
                 </p>
             </div>
 
-            <div class="framework-layers" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0;">
-                <div class="framework-layer glass-card" style="padding: 40px; border-left: 5px solid #00eaff; text-align: center;">
-                    <div style="font-size: 48px; color: #00eaff; margin-bottom: 15px;">🔍</div>
-                    <h3 style="color: #fff; margin-bottom: 12px;">Detection</h3>
-                    <p style="color: rgba(255,255,255,.85); line-height: 1.8;">
+            <div class="framework-layers">
+                <div class="framework-layer glass-card detection">
+                    <div class="icon">🔍</div>
+                    <h3>Detection</h3>
+                    <p>
                         Our AI continuously scans live video feeds to identify anomalies—unauthorized entry, loitering, unusual movement, or risks in sensitive areas. Nothing goes unnoticed.
                     </p>
                 </div>
 
-                <div class="framework-layer glass-card" style="padding: 40px; border-left: 5px solid #ffd700; text-align: center;">
-                    <div style="font-size: 48px; color: #ffd700; margin-bottom: 15px;">✓</div>
-                    <h3 style="color: #fff; margin-bottom: 12px;">Validation</h3>
-                    <p style="color: rgba(255,255,255,.85); line-height: 1.8;">
+                <div class="framework-layer glass-card validation">
+                    <div class="icon">✓</div>
+                    <h3>Validation</h3>
+                    <p>
                         Every detected event is verified by trained monitoring professionals, eliminating false alarms and ensuring accuracy. Human expertise meets machine precision.
                     </p>
                 </div>
 
-                <div class="framework-layer glass-card" style="padding: 40px; border-left: 5px solid #00eaff; text-align: center;">
-                    <div style="font-size: 48px; color: #00eaff; margin-bottom: 15px;">⚡</div>
-                    <h3 style="color: #fff; margin-bottom: 12px;">Response</h3>
-                    <p style="color: rgba(255,255,255,.85); line-height: 1.8;">
+                <div class="framework-layer glass-card response">
+                    <div class="icon">⚡</div>
+                    <h3>Response</h3>
+                    <p>
                         Swift action is guaranteed. Whether alerting guards, notifying management, or escalating emergencies—response happens instantly when it matters most.
                     </p>
                 </div>
             </div>
 
-            <div class="framework-benefits glass-card" style="padding: 40px; margin-top: 40px; border-left: 4px solid #00eaff;">
-                <h3 style="color: #00eaff; margin-bottom: 20px;">Why Organizations Choose GuardianGrid Active Surveillance™</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-                    <div style="padding: 20px; background: rgba(0,234,255,.05); border-radius: 8px;">
-                        <h4 style="color: #fff; margin-bottom: 10px;">✓ Real-Time Intelligence</h4>
-                        <p style="color: rgba(255,255,255,.8); font-size: 14px;">Events are detected, validated, and acted upon within seconds—not hours or days.</p>
+            <div class="framework-benefits glass-card">
+                <h3>Why Organizations Choose GuardianGrid Active Surveillance™</h3>
+                <div class="framework-benefits-grid">
+                    <div class="framework-benefit-item">
+                        <h4>✓ Real-Time Intelligence</h4>
+                        <p>Events are detected, validated, and acted upon within seconds—not hours or days.</p>
                     </div>
-                    <div style="padding: 20px; background: rgba(0,234,255,.05); border-radius: 8px;">
-                        <h4 style="color: #fff; margin-bottom: 10px;">✓ Seamless Integration</h4>
-                        <p style="color: rgba(255,255,255,.8); font-size: 14px;">Works with existing CCTV infrastructure—no major overhaul required. High-impact, cost-efficient upgrade.</p>
+                    <div class="framework-benefit-item">
+                        <h4>✓ Seamless Integration</h4>
+                        <p>Works with existing CCTV infrastructure—no major overhaul required. High-impact, cost-efficient upgrade.</p>
                     </div>
-                    <div style="padding: 20px; background: rgba(0,234,255,.05); border-radius: 8px;">
-                        <h4 style="color: #fff; margin-bottom: 10px;">✓ Industry-Specific Solutions</h4>
-                        <p style="color: rgba(255,255,255,.8); font-size: 14px;">Tailored for residential, commercial, banking, retail, healthcare, education, and more.</p>
+                    <div class="framework-benefit-item">
+                        <h4>✓ Industry-Specific Solutions</h4>
+                        <p>Tailored for residential, commercial, banking, retail, healthcare, education, and more.</p>
                     </div>
-                    <div style="padding: 20px; background: rgba(0,234,255,.05); border-radius: 8px;">
-                        <h4 style="color: #fff; margin-bottom: 10px;">✓ Compliance & Accountability</h4>
-                        <p style="color: rgba(255,255,255,.8); font-size: 14px;">Detailed audit trails and compliance-ready documentation meet regulatory requirements.</p>
+                    <div class="framework-benefit-item">
+                        <h4>✓ Compliance & Accountability</h4>
+                        <p>Detailed audit trails and compliance-ready documentation meet regulatory requirements.</p>
                     </div>
-                    <div style="padding: 20px; background: rgba(0,234,255,.05); border-radius: 8px;">
-                        <h4 style="color: #fff; margin-bottom: 10px;">✓ Scalability</h4>
-                        <p style="color: rgba(255,255,255,.8); font-size: 14px;">From single locations to multi-site operations, consistent security standards everywhere.</p>
+                    <div class="framework-benefit-item">
+                        <h4>✓ Scalability</h4>
+                        <p>From single locations to multi-site operations, consistent security standards everywhere.</p>
                     </div>
-                    <div style="padding: 20px; background: rgba(0,234,255,.05); border-radius: 8px;">
-                        <h4 style="color: #fff; margin-bottom: 10px;">✓ Professional Monitoring</h4>
-                        <p style="color: rgba(255,255,255,.8); font-size: 14px;">Trained operators available 24/7 for verification, escalation, and expert guidance.</p>
+                    <div class="framework-benefit-item">
+                        <h4>✓ Professional Monitoring</h4>
+                        <p>Trained operators available 24/7 for verification, escalation, and expert guidance.</p>
                     </div>
                 </div>
             </div>
@@ -134,47 +134,47 @@ include 'head_code.php';
     </section>
 
     <!-- ABOUT THE PRESENTER -->
-    <section class="presenter-section" id="presenter-section" style="padding: 80px 0; background: linear-gradient(135deg, rgba(255,215,0,.05), rgba(0,234,255,.03));">
+    <section class="presenter-section" id="presenter-section">
         <div class="container">
             <div class="section-header">
                 <h2>About the Founder</h2>
                 <p>The Vision Behind GuardianGrid</p>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 50px; align-items: center; margin-top: 50px;">
+            <div class="presenter-grid">
                 <!-- Presenter Image/Avatar -->
-                <div style="display: flex; justify-content: center; align-items: center;">
-                    <div class="glass-card" style="padding: 40px; border: 2px solid #00eaff; text-align: center; width: 100%; max-width: 350px;">
-                        <div style="font-size: 120px; color: #00eaff; margin-bottom: 20px;">
+                <div class="presenter-card-wrapper">
+                    <div class="presenter-card glass-card">
+                        <div class="presenter-icon">
                             <i class="fas fa-user-tie"></i>
                         </div>
-                        <h3 style="color: #fff; margin-bottom: 10px; font-size: 24px;">Akash Bhardwaj</h3>
-                        <p style="color: #00eaff; margin-bottom: 5px; font-weight: 600; font-size: 15px;">R&D Innovation | Evalueserve</p>
-                        <p style="color: rgba(255,255,255,.75); font-size: 14px; line-height: 1.6;">
+                        <h3 class="presenter-name">Akash Bhardwaj</h3>
+                        <p class="presenter-position">R&D Innovation | Evalueserve</p>
+                        <p class="presenter-tagline">
                             Crafting Safer Futures Through Intelligent Surveillance
                         </p>
                     </div>
                 </div>
 
                 <!-- Presenter Details -->
-                <div>
-                    <h3 style="color: #fff; margin-bottom: 20px; font-size: 24px;">The Visionary Behind GuardianGrid</h3>
+                <div class="presenter-content">
+                    <h3>The Visionary Behind GuardianGrid</h3>
                     
-                    <p style="color: rgba(255,255,255,.9); font-size: 15px; line-height: 1.9; margin-bottom: 20px;">
+                    <p>
                         As the force behind <strong>S&N GuardianGrid Technologies</strong>, Akash specializes in building next-generation AI-powered surveillance ecosystems that go beyond passive monitoring—transforming CCTV into proactive, intelligent guardians. His work focuses on integrating <strong>real-time incident detection</strong>, <strong>smart alert mechanisms</strong>, and <strong>scalable multi-camera architectures</strong> to deliver unmatched situational awareness.
                     </p>
 
-                    <p style="color: rgba(255,255,255,.9); font-size: 15px; line-height: 1.9; margin-bottom: 30px;">
+                    <p>
                         With a strong inclination toward research, product development, and patent-driven innovation, Akash continuously explores ways to bridge the gap between traditional security infrastructure and cutting-edge artificial intelligence. He believes that the future of safety lies not just in watching—but in understanding, predicting, and responding.
                     </p>
 
                     <!-- Specialties -->
-                    <div style="background: rgba(0,234,255,.1); padding: 25px; border-radius: 8px; border-left: 4px solid #00eaff;">
-                        <h4 style="color: #00eaff; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                    <div class="expertise-box">
+                        <h4>
                             <i class="fas fa-star"></i>
                             Areas of Expertise
                         </h4>
-                        <ul style="color: rgba(255,255,255,.85); font-size: 14px; line-height: 2; margin: 0; padding-left: 25px;">
+                        <ul>
                             <li><strong>AI Surveillance Systems</strong> — Designing intelligent monitoring ecosystems</li>
                             <li><strong>Smart Security Automation</strong> — Real-time threat detection and response</li>
                             <li><strong>Scalable Infrastructure Design</strong> — Multi-camera architecture for enterprises</li>
@@ -183,16 +183,16 @@ include 'head_code.php';
                     </div>
 
                     <!-- Philosophy -->
-                    <div style="margin-top: 25px; padding: 20px; background: rgba(255,215,0,.08); border-radius: 8px; border-left: 4px solid #ffd700;">
-                        <p style="color: rgba(255,255,255,.9); font-size: 14px; line-height: 1.8; font-style: italic; margin: 0;">
-                            <i class="fas fa-quote-left" style="color: #ffd700; margin-right: 10px;"></i>
+                    <div class="philosophy-box">
+                        <p>
+                            <i class="fas fa-quote-left philosophy-icon"></i>
                             "Let's build a world where technology doesn't just observe—but protects."
                         </p>
                     </div>
 
                     <!-- Social Links -->
-                    <div style="margin-top: 30px; display: flex; gap: 15px;">
-                        <a href="https://linkedin.com" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; background: rgba(0,234,255,.15); color: #00eaff; border-radius: 6px; text-decoration: none; transition: all 0.3s; border: 1px solid rgba(0,234,255,.3);">
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
                             <i class="fab fa-linkedin"></i>
                             <span>Connect on LinkedIn</span>
                         </a>
@@ -480,25 +480,25 @@ include 'head_code.php';
     </section>
 
     <!-- TECHNOLOGY ROADMAP -->
-    <section class="technology-roadmap" id="technology-roadmap" style="padding: 80px 0; background: linear-gradient(135deg, rgba(0,234,255,.05), rgba(0,234,255,.02));">
+    <section class="technology-roadmap" id="technology-roadmap">
         <div class="container">
             <div class="section-header">
-                <span style="color: #00eaff; font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">TECHNOLOGY ROADMAP</span>
+                <span class="roadmap-label">TECHNOLOGY ROADMAP</span>
                 <h2>GuardianGrid Vision 2026-2028</h2>
                 <p>Building the Future of Intelligent Security — One Innovation at a Time</p>
             </div>
 
-            <div style="max-width: 900px; margin: 60px auto;">
+            <div class="roadmap-container">
                 <!-- Phase 1 - 2026 -->
-                <div style="display: flex; gap: 30px; margin-bottom: 50px; align-items: flex-start;">
-                    <div style="flex-shrink: 0;">
-                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #00eaff 0%, rgba(0,234,255,.6) 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 2px solid #00eaff;">
-                            <i class="fas fa-microchip" style="font-size: 36px; color: #fff;"></i>
+                <div class="roadmap-phase">
+                    <div class="roadmap-icon-box">
+                        <div class="roadmap-icon">
+                            <i class="fas fa-microchip"></i>
                         </div>
                     </div>
-                    <div style="flex: 1;">
-                        <h3 style="color: #fff; margin-bottom: 15px; font-size: 20px; font-weight: 600;">Phase 1 — 2026 (Near-Term)</h3>
-                        <ul style="color: rgba(255,255,255,.85); font-size: 15px; line-height: 2; margin: 0; padding-left: 25px;">
+                    <div class="roadmap-content">
+                        <h3>Phase 1 — 2026 (Near-Term)</h3>
+                        <ul>
                             <li><strong>AI Weapon Recognition</strong> — Real-time detection of firearms and bladed weapons in live feeds</li>
                             <li><strong>ANPR (Automatic Number Plate Recognition)</strong> — Full license plate logging and watchlist matching</li>
                         </ul>
@@ -506,15 +506,15 @@ include 'head_code.php';
                 </div>
 
                 <!-- Phase 2 - 2027 -->
-                <div style="display: flex; gap: 30px; margin-bottom: 50px; align-items: flex-start;">
-                    <div style="flex-shrink: 0;">
-                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #00eaff 0%, rgba(0,234,255,.6) 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 2px solid #00eaff;">
-                            <i class="fas fa-robot" style="font-size: 36px; color: #fff;"></i>
+                <div class="roadmap-phase">
+                    <div class="roadmap-icon-box">
+                        <div class="roadmap-icon">
+                            <i class="fas fa-robot"></i>
                         </div>
                     </div>
-                    <div style="flex: 1;">
-                        <h3 style="color: #fff; margin-bottom: 15px; font-size: 20px; font-weight: 600;">Phase 2 — 2027 (Mid-Term)</h3>
-                        <ul style="color: rgba(255,255,255,.85); font-size: 15px; line-height: 2; margin: 0; padding-left: 25px;">
+                    <div class="roadmap-content">
+                        <h3>Phase 2 — 2027 (Mid-Term)</h3>
+                        <ul>
                             <li><strong>Drone Surveillance Integration</strong> — Aerial monitoring units deployable on-demand for large premises</li>
                             <li><strong>Automated Voice Deterrence</strong> — AI-triggered audio warnings to deter intruders before escalation</li>
                             <li><strong>Behavioral Threat Scoring</strong> — Predictive risk scoring based on movement patterns and historical data</li>
@@ -523,15 +523,15 @@ include 'head_code.php';
                 </div>
 
                 <!-- Phase 3 - 2028 -->
-                <div style="display: flex; gap: 30px; align-items: flex-start;">
-                    <div style="flex-shrink: 0;">
-                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #00eaff 0%, rgba(0,234,255,.6) 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 2px solid #00eaff;">
-                            <i class="fas fa-globe" style="font-size: 36px; color: #fff;"></i>
+                <div class="roadmap-phase">
+                    <div class="roadmap-icon-box">
+                        <div class="roadmap-icon">
+                            <i class="fas fa-globe"></i>
                         </div>
                     </div>
-                    <div style="flex: 1;">
-                        <h3 style="color: #fff; margin-bottom: 15px; font-size: 20px; font-weight: 600;">Phase 3 — 2028 (Long-Term)</h3>
-                        <ul style="color: rgba(255,255,255,.85); font-size: 15px; line-height: 2; margin: 0; padding-left: 25px;">
+                    <div class="roadmap-content">
+                        <h3>Phase 3 — 2028 (Long-Term)</h3>
+                        <ul>
                             <li><strong>Predictive Crime Analytics</strong> — AI models that forecast high-risk windows before incidents occur</li>
                             <li><strong>Smart City Partnerships</strong> — Integration with municipal CCTV grids and law enforcement networks</li>
                             <li><strong>Mobile Response Units</strong> — Rapid-deployment GuardianGrid field teams for on-ground intervention</li>
@@ -540,8 +540,8 @@ include 'head_code.php';
                 </div>
 
                 <!-- Vision Statement -->
-                <div style="margin-top: 60px; padding: 35px; background: rgba(0,234,255,.08); border-left: 5px solid #00eaff; border-radius: 8px; text-align: center;">
-                    <p style="color: rgba(255,255,255,.9); font-size: 16px; line-height: 1.8; margin: 0; font-style: italic;">
+                <div class="roadmap-vision">
+                    <p>
                         By 2028, GuardianGrid will have evolved from a regional surveillance innovator into a global leader in predictive security, delivering AI-powered protection that doesn't just monitor—it anticipates, prevents, and responds.
                     </p>
                 </div>
