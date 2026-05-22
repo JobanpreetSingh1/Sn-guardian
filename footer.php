@@ -56,7 +56,7 @@
 
   <!-- Persistent WhatsApp chat button (always visible) -->
   <!-- Replace PHONE_NUMBER with international format, e.g. 15551234567 -->
-  <a href="https://wa.me/+918847406740" class="footer-whatsapp" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
+  <a href="https://wa.me/+918427590032 for whatsap" class="footer-whatsapp" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
       <span class="sr-only">Chat with us on WhatsApp</span>
       <i class="fab fa-whatsapp" aria-hidden="true"></i>
   </a>
