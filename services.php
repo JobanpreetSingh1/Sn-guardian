@@ -65,9 +65,9 @@ include 'head_code.php';
                         </ul>
                     </div>
 
-                    <div class="service-pricing">
+                    <!-- <div class="service-pricing">
                         Starting from ₹8,999/month
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- Service 2: Police Dispatch -->
@@ -104,9 +104,9 @@ include 'head_code.php';
                         </ul>
                     </div>
 
-                    <div class="service-pricing">
+                    <!-- <div class="service-pricing">
                         Starting from ₹14,999/month
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- Service 3: Analytics & Reports -->
@@ -143,9 +143,9 @@ include 'head_code.php';
                         </ul>
                     </div>
 
-                    <div class="service-pricing">
+                    <!-- <div class="service-pricing">
                         Starting from ₹19,999/month
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- Service 4: Operator Support -->
@@ -182,9 +182,9 @@ include 'head_code.php';
                         </ul>
                     </div>
 
-                    <div class="service-pricing">
+                    <!-- <div class="service-pricing">
                         Starting from ₹24,999/month
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
