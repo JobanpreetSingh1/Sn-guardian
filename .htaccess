@@ -1,0 +1,32 @@
+# Root .htaccess - hide .php extensions while keeping WordPress in /blog intact
+# Place this file at the site root (c:/xampp/htdocs/sn-guardian/.htaccess)
+
+# Disable MultiViews to avoid content-negotiation conflicts
+<IfModule mod_negotiation.c>
+	Options -MultiViews
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+
+	# --- Skip rules for the WordPress blog folder (leave WP .htaccess to handle requests) ---
+	RewriteRule ^blog/ - [L]
+
+	# --- Canonical redirect: /file.php  -> /file  ---
+	# This redirects direct requests that contain ".php" in the original HTTP request line
+	RewriteCond %{THE_REQUEST} \s([^\s?]+)\.php[?\s] [NC]
+	RewriteRule ^ %1 [R=301,L]
+
+	# --- Internally serve PHP when user requests the extensionless path ---
+	# If requested path is not a file or directory but a .php file exists, rewrite internally.
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME}\.php -f
+	RewriteRule ^(.*)$ $1.php [L]
+</IfModule>
+
+# Ensure the index files include index.php
+DirectoryIndex index.php index.html
+
+# End of .htaccess

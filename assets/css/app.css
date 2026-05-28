@@ -2682,6 +2682,39 @@ body {
     .split-label { top: 14px; font-size: 0.66rem; }
 }
 
+/* Mobile improvements for comparison section */
+@media (max-width: 600px) {
+    .comparison-section { padding: 48px 16px; position: relative; z-index: 5; }
+    .comparison-wrap { gap: 18px; }
+    .comparison-visual { padding: 14px; border-radius: 14px; }
+    .comparison-split { display: block; height: auto; border-radius: 12px; }
+    .split-half { width: 100%; height: auto; }
+    .comparison-shot { width: 100%; height: auto; max-height: 420px; object-fit: cover; border-radius: 10px; }
+    .split-divider { display: none; }
+    .visual-caption { position: static; margin-top: 8px; color: var(--gray-med); font-size: 0.95rem; }
+    .cards-stack { gap: 14px; }
+    .card-problem, .card-solution { padding: 18px; }
+
+    /* Hide heavy decorative elements on small screens to reduce overlap and improve clarity */
+    .comparison-particles, .ai-cube, .scan-line, .split-glow, .showcase-radar { display: none !important; }
+    .detection-box { display: none !important; }
+
+    /* Ensure labels remain readable and don't overlap */
+    .split-label { position: relative; top: 0; left: 0; right: 0; display: inline-block; margin: 6px 0; }
+    .split-label-left, .split-label-right { transform: none; }
+
+    /* Reduce visual noise from shadows that can cause banding on low-end devices */
+    .comparison-visual { box-shadow: none; border: 1px solid rgba(255,255,255,0.03); }
+
+    /* If a floating widget (chat/recaptcha) overlaps content, push action buttons up slightly */
+    .comparison-actions { margin-bottom: 14px; }
+}
+
+@media (max-width: 420px) {
+    .comparison-section { padding-bottom: 110px; }
+    .comparison-actions .btn { display: inline-block; width: 100%; }
+}
+
 
 .service-features li::before,
 .service-benefits li::before {
