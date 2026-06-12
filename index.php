@@ -487,6 +487,61 @@ include 'head_code.php';
 </section>
 
 
+<!-- VIDEO DEMO SECTION -->
+<section class="video-demo-section" id="demo-video">
+    <div class="container">
+        <div class="section-header">
+            <h2>See GuardianGrid in Action</h2>
+            <p>Watch how our AI-powered system detects, verifies, and responds to threats in real time</p>
+        </div>
+
+        <div class="video-demo-wrapper">
+            <div class="video-demo-frame glass-card">
+                <div class="video-demo-badge">
+                    <i class="fas fa-circle" style="color:#f00; font-size:10px;"></i>
+                    LIVE DEMO
+                </div>
+                <div class="video-embed-wrap">
+                    <iframe
+                        src="https://www.youtube.com/embed/eVgoiq-fObw?rel=0&modestbranding=1&color=white"
+                        title="GuardianGrid AI Security Demo"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        loading="lazy"
+                    ></iframe>
+                </div>
+            </div>
+
+            <div class="video-demo-points">
+                <div class="vdp-item">
+                    <div class="vdp-icon"><i class="fas fa-eye"></i></div>
+                    <div>
+                        <h4>Real-Time AI Detection</h4>
+                        <p>Watch the AI flag suspicious activity the moment it appears on camera.</p>
+                    </div>
+                </div>
+                <div class="vdp-item">
+                    <div class="vdp-icon"><i class="fas fa-bolt"></i></div>
+                    <div>
+                        <h4>Sub-60 Second Response</h4>
+                        <p>See how our operators verify and dispatch police faster than any other system.</p>
+                    </div>
+                </div>
+                <div class="vdp-item">
+                    <div class="vdp-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <h4>Zero Hardware Change</h4>
+                        <p>GuardianGrid plugs into your existing CCTV — no costly replacements needed.</p>
+                    </div>
+                </div>
+                <div class="vdp-cta">
+                    <a href="contact-page.php" class="btn btn-primary">Book a Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- SERVICES SECTION -->
 <section class="services-section" id="services">
     <div class="container">
