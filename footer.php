@@ -43,7 +43,7 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2026 S&N GuardianGrid Technologies. All rights .</p>
+            <p>&copy; 2026 S&N GuardianGrid Technologies. All rights reservedgit .</p>
 
             <div class="footer-links">
                 <a href="privacy.php">Privacy Policy</a>
