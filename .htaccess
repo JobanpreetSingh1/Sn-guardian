@@ -8,7 +8,7 @@
 
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	RewriteBase /
+	RewriteBase /sn-guardian/
 
 	# --- Skip rules for the WordPress blog folder (leave WP .htaccess to handle requests) ---
 	RewriteRule ^blog/ - [L]
@@ -31,18 +31,18 @@ DirectoryIndex index.php index.html
 
 # End of .htaccess
 
-# BEGIN WordPress
-# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
-
-# END WordPress
+# # BEGIN WordPress
+# # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# # dynamically generated, and should only be modified via WordPress filters.
+# # Any changes to the directives between these markers will be overwritten.
+# # (WordPress rules are handled in blog/.htaccess)
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+# RewriteBase /sn-guardian/
+# RewriteRule ^index\.php$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /sn-guardian/index.php [L]
+# </IfModule>
+# # END WordPress

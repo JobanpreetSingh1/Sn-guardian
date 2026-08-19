@@ -275,7 +275,8 @@ include 'head_code.php';
             <!-- Primary founder card -->
             <div class="team-card glass-card primary">
                 <div class="team-image">
-                    <i class="fas fa-user-circle"></i>
+                    <img src="assets/images/about/about-1.png" alt="Akash Bhardwaj"
+                        style="width:100%; border-radius:50%;">
                 </div>
                 <h3>Akash Bhardwaj</h3>
                 <p class="team-position">Head of R&amp;D &amp; Innovation</p>
@@ -291,11 +292,15 @@ include 'head_code.php';
             <!-- Demo placeholders for remaining team slots -->
             <div class="team-card glass-card demo">
                 <div class="team-image">
-                    <i class="fas fa-user-circle"></i>
+                    <img src="assets/images/about/about-2.png" alt="Demo Team" style="width:100%; border-radius:50%;">
                 </div>
-                <h3>Demo Team</h3>
-                <p class="team-position">Demo</p>
-                <p class="team-bio">Placeholder profile — replace with actual team member details.</p>
+                <h3>Brij Bhushan</h3>
+                <p class="team-position">CFO, S&N GuardianGrid Technologies LLP</p>
+                <p class="team-bio">At S&N GuardianGrid Technologies, we believe that innovation should be backed by
+                    responsibility and long-term vision. As CFO, I am committed to ensuring that every decision we make
+                    strengthens our ability to deliver reliable, scalable, and cost-effective AI security solutions. By
+                    maintaining financial discipline while investing in cutting-edge technology, we continue to create
+                    lasting value for our clients, partners, and the communities we help protect.</p>
                 <div class="team-social">
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
@@ -303,27 +308,21 @@ include 'head_code.php';
 
             <div class="team-card glass-card demo">
                 <div class="team-image">
-                    <i class="fas fa-user-circle"></i>
+                    <img src="assets/images/about/about-3.png" alt="Demo Team" style="width:100%; border-radius:50%;">
                 </div>
-                <h3>Demo Team</h3>
-                <p class="team-position">Demo</p>
-                <p class="team-bio">Placeholder profile — replace with actual team member details.</p>
+                <h3>Saroj Bhardwaj</h3>
+                <p class="team-position">CEO, S&N GuardianGrid Technologies LLP</p>
+                <p class="team-bio">As the CEO of S&N GuardianGrid Technologies, I believe security should be proactive,
+                    intelligent, and always reliable. Our mission is to empower residential communities and businesses
+                    with AI-driven surveillance solutions that not only detect threats in real time but also help
+                    prevent them before they escalate. Every solution we build is guided by innovation, trust, and an
+                    unwavering commitment to protecting what matters most. At S&N GuardianGrid, your safety isn't just
+                    our service—it's our promise..</p>
                 <div class="team-social">
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
 
-            <div class="team-card glass-card demo">
-                <div class="team-image">
-                    <i class="fas fa-user-circle"></i>
-                </div>
-                <h3>Demo Team</h3>
-                <p class="team-position">Demo</p>
-                <p class="team-bio">Placeholder profile — replace with actual team member details.</p>
-                <div class="team-social">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
 
 
         </div>
