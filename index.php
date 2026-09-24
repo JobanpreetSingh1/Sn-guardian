@@ -502,13 +502,7 @@ include 'head_code.php';
                     LIVE DEMO
                 </div>
                 <div class="video-embed-wrap">
-                    <iframe
-                        src="https://www.youtube.com/embed/eVgoiq-fObw?rel=0&modestbranding=1&color=white"
-                        title="GuardianGrid AI Security Demo"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        loading="lazy"
-                    ></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/jy07Vl-RCZw?si=GRtPS6A21s7XOdHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
 
