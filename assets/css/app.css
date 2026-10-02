@@ -5937,8 +5937,8 @@ section {
 
 /* ============ PRESENTER SECTION ============ */
 .presenter-section {
-    padding: 80px 0;
-    background: linear-gradient(135deg, rgba(255, 215, 0, 0.05), rgba(0, 234, 255, 0.03));
+    padding: 96px 0;
+    background: radial-gradient(circle at 12% 30%, rgba(0, 229, 255, 0.09), transparent 28%), linear-gradient(135deg, rgba(255, 215, 0, 0.04), rgba(0, 234, 255, 0.03));
 }
 
 .presenter-grid {
@@ -5956,17 +5956,64 @@ section {
 }
 
 .presenter-card {
-    padding: 40px;
-    border: 2px solid var(--neon-cyan);
+    padding: 28px 30px 22px;
+    border: 1px solid rgba(0, 229, 255, 0.7);
+    border-radius: 18px;
     text-align: center;
     width: 100%;
-    max-width: 350px;
+    max-width: 390px;
+    background: linear-gradient(160deg, rgba(20, 35, 43, 0.92), rgba(10, 18, 27, 0.86));
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28), 0 0 34px rgba(0, 229, 255, 0.08);
+}
+
+.presenter-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 28px;
+    right: 28px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
+}
+
+.presenter-kicker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    color: rgba(224, 231, 255, 0.62);
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+}
+
+.presenter-kicker span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #5eead4;
+    box-shadow: 0 0 12px rgba(94, 234, 212, 0.9);
 }
 
 .presenter-icon {
-    font-size: 120px;
-    color: var(--neon-cyan);
-    margin-bottom: 20px;
+    width: 116px;
+    height: 116px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 22px;
+    border: 1px solid rgba(0, 229, 255, 0.32);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.13), rgba(0, 229, 255, 0.02) 68%, transparent 70%);
+    box-shadow: 0 0 0 8px rgba(0, 229, 255, 0.035), 0 0 28px rgba(0, 229, 255, 0.13);
+}
+
+.presenter-icon img {
+    width: 92px;
+    height: 92px;
+    object-fit: contain;
+    border-radius: 50%;
 }
 
 .presenter-name {
@@ -5984,8 +6031,23 @@ section {
 
 .presenter-tagline {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 0.9rem;
-    line-height: 1.6;
+    max-width: 270px;
+    margin: 0 auto;
+    font-size: 0.93rem;
+    line-height: 1.65;
+}
+
+.presenter-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(224, 231, 255, 0.52);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .presenter-content h3 {

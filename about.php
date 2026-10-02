@@ -32,14 +32,18 @@ include 'head_code.php';
             <!-- Presenter Image/Avatar -->
             <div class="presenter-card-wrapper">
                 <div class="presenter-card glass-card">
+                    <div class="presenter-kicker"><span></span> GuardianGrid / Research &amp; Innovation</div>
                     <div class="presenter-icon">
-                        <i class="fas fa-user-tie"></i>
+                        <img src="assets/images/logo/logo.png" alt="S&amp;N GuardianGrid Technologies logo">
                     </div>
-                    <h3 class="presenter-name">Akash Bhardwaj</h3>
-                    <p class="presenter-position">R&D Innovation | Evalueserve</p>
+                  
                     <p class="presenter-tagline">
                         Crafting Safer Futures Through Intelligent Surveillance
                     </p>
+                    <div class="presenter-footer">
+                        <span>AI surveillance systems</span>
+                        <span>India</span>
+                    </div>
                 </div>
             </div>
 
@@ -273,22 +277,7 @@ include 'head_code.php';
 
         <div class="team-grid">
             <!-- Primary founder card -->
-            <div class="team-card glass-card primary">
-                <div class="team-image">
-                    <img src="assets/images/about/about-1.png" alt="Akash Bhardwaj"
-                        style="width:100%; border-radius:50%;">
-                </div>
-                <h3>Akash Bhardwaj</h3>
-                <p class="team-position">Head of R&amp;D &amp; Innovation</p>
-                <p class="team-bio">R&D lead specializing in AI-powered surveillance systems. Focuses on real-time
-                    incident detection, smart alerting, and scalable multi-camera architectures that convert CCTV from
-                    passive recording into proactive protection. Passionate about research, product development, and
-                    patent-driven innovation.</p>
-                <div class="team-social">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-
+          
             <!-- Demo placeholders for remaining team slots -->
             <div class="team-card glass-card demo">
                 <div class="team-image">
